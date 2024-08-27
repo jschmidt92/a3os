@@ -1,0 +1,25 @@
+#include "CoalaOs\common.hpp"
+#include "CoalaOs\base.hpp"
+
+enableDebugConsole = 1;
+
+respawn = "BASE";
+disableAI = 0;
+author = "J. Schmidt";
+onLoadName = "SOGFramework";
+onLoadMission = "SOGFramework by J. Schmidt";
+respawnDelay = 1;
+
+class Header {
+	gameType = SOG_CNT;
+	minPlayers = 1;
+	maxPlayers = 2;
+};
+
+class CfgFunctions {
+    class TanKode {
+        tag = "tankode";
+        file = "tankode";
+        class notification_system {};
+    };
+};
